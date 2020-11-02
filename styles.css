@@ -1,0 +1,246 @@
+/* Regular Weight */
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/Montserrat-Regular.ttf');
+}
+
+/* SemiBold (600) Weight */
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/Montserrat-SemiBold.ttf');
+  font-weight: 600;
+}
+
+/* Bold Weight */
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/Montserrat-Bold.ttf');
+  font-weight: bold;
+}
+
+.wrapper {
+  width: 1280px;
+  height: 1965px;
+  background-color: f5f7fa;
+  margin: auto;
+}
+.resume {
+  width: 1200px;
+  height: 1319px;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 370px 830px;
+}
+.left-block {
+  background-color: #1e2939;
+}
+.photo {
+  margin-top: 40px;
+}
+.short-information {
+  margin-top: 57px;
+  margin-left: 41px;
+}
+.contacts {
+  width: 102px;
+  height: 15px;
+  color: #ffffff;
+  font-family: 'Montserrat';
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 24px;
+  text-align: left;
+}
+.phone-number {
+  margin-top: 21px;
+}
+.white-letters {
+  width: 14px;
+  height: 34px;
+  color: #ffffff;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.contact-info {
+  width: 166px;
+  height: 39px;
+  opacity: 0.5;
+  color: #ffffff;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
+}
+.contact-phone-number {
+  letter-spacing: 0.42px;
+}
+.contact-email {
+  letter-spacing: 0.42px;
+  text-decoration: underline;
+}
+.email {
+  padding-bottom: 41px;
+}
+.tech-skills,
+.soft-skills {
+  margin-left: 41px;
+  padding-bottom: 30px;
+}
+.skills-title {
+  width: 121px;
+  height: 17px;
+  color: #ffffff;
+  font-family: 'Montserrat';
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+.skills-list {
+  padding-left: 19px;
+}
+.skills-list-item {
+  color: #ff6b08;
+  padding-bottom: 13px;
+}
+.list-item {
+  color: #ffffff;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  text-align: left;
+  letter-spacing: 0.42px;
+}
+.wrapper-right-block {
+  margin-left: 88px;
+  margin-top: 108px;
+}
+.profession {
+  color: #000000;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+  letter-spacing: 0.42px;
+}
+.name {
+  color: #000000;
+  font-family: 'Montserrat';
+  font-size: 45px;
+  font-weight: 700;
+  text-align: left;
+  margin: 0;
+}
+.description {
+  margin: 24px 0 0 0;
+  width: 413px;
+  height: 107px;
+  color: #595959;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  letter-spacing: 0.42px;
+}
+.projects {
+  margin: 54px 0px 12px 0px;
+  width: 93px;
+  height: 21px;
+  color: #000000;
+  font-family: 'Montserrat';
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 20px;
+}
+.list-of-projects {
+  padding-left: 18px;
+}
+.project-name,
+.lang {
+  width: 100%;
+  color: #595959;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.project {
+  color: #000000;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 24px;
+}
+.dotted {
+  display: inline-block;
+  width: 180px;
+  height: 1px;
+  border-bottom: 1px dotted black;
+}
+.block-name {
+  margin: 50px 0px 0px 0px;
+  color: #000000;
+  font-family: 'Montserrat';
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 24px;
+  text-align: left;
+}
+.position {
+  margin: 18px 0 14px 0;
+  padding: 0;
+  width: 100%
+  height: 15px;
+  color: #000000;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+  text-align: left;
+}
+.colortext {
+  color: #ff6b08;
+}
+.period {
+  width: 179px;
+  height: 13px;
+  color: #a8a8a8;
+  font-family: 'Montserrat';
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
+}
+.list-of-responsibilities {
+  width: 535px;
+  margin: 0;
+  padding-left: 18px;
+}
+.responsibilities {
+  color: #595959;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+.faculty {
+margin: 0 0 14px 0;
+padding: 0;
+width: 102px;
+color: #000000;
+font-family: 'Montserrat';
+font-size: 14px;
+font-weight: bold;
+text-align: left;
+}
