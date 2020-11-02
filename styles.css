@@ -162,6 +162,18 @@
 }
 .list-of-projects {
   padding-left: 18px;
+  width: 500px;
+  display: grid;
+  grid-template-columns: 180px 1fr 135px;
+}
+.lists {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-rows: 21px 21px 21px;
+}
+.between {
+  list-style-type: none;
 }
 .project-name,
 .lang {
@@ -172,7 +184,7 @@
   font-weight: 400;
   line-height: 24px;
 }
-.project {
+.project-number {
   color: #000000;
   font-family: 'Montserrat';
   font-size: 14px;
@@ -182,7 +194,7 @@
 .dotted {
   display: inline-block;
   width: 180px;
-  height: 1px;
+  height: 17px;
   border-bottom: 1px dotted black;
 }
 .block-name {
